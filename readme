@@ -1,0 +1,16 @@
+
+Internal design
+================
+This project contains several classes and one JUnit test class:
+
+SaleTerminal.java is the point of sale scanning API, which scans products, sets product
+price and calculate the final total price.
+Productscanner.java is used to record all the product a customer purchased and including the quantity.
+ProductCalculator.java is used to calculate the total price of a product with certain quantity.
+DuplicatProduct.java is a runtimeException when the product already has a price policy.
+MissingProduct.java is the product did not have a price policy.
+TestCase.java is a JUnit test class used to test all the three test cases.
+
+How to run
+================
+import the whole project "ScanningAPI" to Eclipse and find the TestCase class, press run button.
